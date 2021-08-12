@@ -1,0 +1,7 @@
+Role of access specifiers in encapsulation
+
+As we have seen in above example, access specifiers plays an important role in 
+implementing encapsulation in C++. The process of implementing encapsulation can be sub-divided into two steps:
+
+The data members should be labeled as private using the private access specifiers
+The member function which manipulates the data members should be labeled as public using the public access specifier
