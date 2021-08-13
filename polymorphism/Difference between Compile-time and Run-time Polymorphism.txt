@@ -1,0 +1,26 @@
+In Compile time Polymorphism, the call is resolved by the compiler.
+
+In Run time Polymorphism, the call is not resolved by the compiler.
+--
+It is also known as Static binding, Early binding and overloading as well.
+
+It is also known as Dynamic binding, Late binding and overriding as well.
+--
+Method overloading is the compile-time polymorphism where more than one methods share 
+the same name with different parameters or signature and different return type.
+
+Method overriding is the runtime polymorphism having same method with same parameters or 
+signature, but associated in different classes.
+--
+It is achieved by function overloading and operator overloading.
+
+It is achieved by virtual functions and pointers.
+--
+It provides fast execution because the method that needs to be executed is known early at the compile time.
+
+It provides slow execution as compare to early binding because the method that needs to be executed is 
+known at the runtime.
+--
+Compile time polymorphism is less flexible as all things execute at compile time.
+
+Run time polymorphism is more flexible as all things execute at run time.
